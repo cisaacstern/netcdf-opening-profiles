@@ -6,9 +6,9 @@ An opening profile for each of the datasets below was saved to file with iPython
 
 > Here, "opening" means calling `xr.open_dataset` on an fsspec `OpenFile`. This call was run from a Pangeo notebook running in GCP's region `us-central1-b`. All target files are located on Pangeo Forge's GCS cache, which is also located in the `us-central` region. The notebook used to run these profiles is located in the [project repo](https://github.com/cisaacstern/netcdf-opening-profiles/blob/main/profiles.ipynb).
 
-To view a Snakeviz rendering of each of these profiles in your browser, click on the dataset name in the table below.
-
 ## Snakeviz links
+
+To view a Snakeviz rendering of each of these profiles in your browser, click on the dataset name in the table below.
 
 | Dataset Name                          | On-disk size | In-memory size |`xr.open_dataset` time |
 | ------------------------------------- | ------------ | -------------- | --------------------- |
