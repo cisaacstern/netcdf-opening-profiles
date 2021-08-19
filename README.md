@@ -4,7 +4,7 @@
 
 An opening profile for each of the datasets below was saved to file with iPython's [`%%prun -D` magic](http://ipython.org/ipython-doc/2/api/generated/IPython.core.magics.execution.html#IPython.core.magics.execution.ExecutionMagics.prun). 
 
-> Here, "opening" means calling `xr.open_dataset` on an fsspec `OpenFile`. This call was run from a Pangeo notebook running in GCP's region `us-central1-b` and the target file is located on Pangeo Forge's GCS cache, which is also located in Google's `us-central` region. The notebook used to run these profiles is located in the [project repo](https://github.com/cisaacstern/netcdf-opening-profiles/blob/main/profiles.ipynb).
+> Here, "opening" means calling `xr.open_dataset` on an fsspec `OpenFile`. This call was run from a Pangeo notebook running in GCP's region `us-central1-b`. All target files are located on Pangeo Forge's GCS cache, which is also located in the `us-central` region. The notebook used to run these profiles is located in the [project repo](https://github.com/cisaacstern/netcdf-opening-profiles/blob/main/profiles.ipynb).
 
 To view a Snakeviz rendering of each of these profiles in your browser, click on the dataset name in the table below.
 
